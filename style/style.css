@@ -176,13 +176,46 @@ section h2{
 /* feature */
 .feture-header h2{
     font-size: 45px;
+    color: black;
+    padding-left: 10px;
+    border-left: 8px solid red;
+
+}
+.feture-header{
+    color: black;
+    
+}
+.frture-tytle{
+    padding: 30px;
+    box-shadow: 0 2px 15px 0 rgb(137, 131, 131);
+   margin-top: 30px;
+   /* width: 50%; */
+   border-radius: 10px;
+}
+.display-flex{
+    display: flex;
+}
+.feture{
+    gap: 100px;
+}
+.feture-image img{
+    height: 1000px;
+    padding-top: 40px;
+}
+#expreince-bagde{
+            padding: 46px 42px;
+            border-radius: 8px;
+            margin-left: -70px;
+            margin-top: -100px;
+}
+.year{
+    font-size: 35px;
+    font-weight: bolder;
 }
 
 
 
-
-
-
+    
 
 
 
