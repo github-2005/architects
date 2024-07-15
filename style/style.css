@@ -80,27 +80,7 @@
 }
 
 
-/* responsive mediya quary */
-@media screen and (max-width: 576px) {
-  .navber,
-  .nav-links,
-  .teams{
-    flex-direction: column;
-  }
 
-    
-}
-@media screen and (min-width: 577px) and (max-width: 992px) {
-
-    .teams{
-        flex-direction: column;
-    }
-    .teams-fetures{
-        padding-left: 100px;
-        padding-right: 30px;
-    }
-   
-}
     
 
 /* main */
@@ -136,4 +116,126 @@ main{
 }
 .feture{
     color: red;
+    
 }
+
+
+
+/* same facts */
+section h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+
+.fact-card{
+    border: 2px solid red;
+    width: 233px;
+    height: 210px;
+    text-align: center;
+    padding: 30px 30px;
+    border-radius: 8px;
+
+}
+.fact-container{
+    display: flex;
+    gap: 110px;
+    margin-top: 80px;
+    
+}
+.fact-number{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 5px;
+   
+}
+.fact-head{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0;
+} 
+.fact-image{
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+
+
+
+/* sponser */
+.sponser-info{
+    text-align: center;
+}
+.sponser-company{
+   margin-top: 60px;
+   display: flex;
+   justify-content: space-between;
+}
+/* feature */
+.feture-header h2{
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive mediya quary */
+@media screen and (max-width: 576px) {
+    .navber,
+    .nav-links,
+    .teams{
+      flex-direction: column;
+    }
+    .fact-container{
+      flex-direction: column;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding-left: 140px;
+    }
+    .header-2{
+      padding-left: 130px;
+    }
+    .sponser-company{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       row-gap: 40px;
+       padding-left: 200px;
+    }
+    .sponser-info{
+        padding-left: 60px;
+    }
+     
+  }
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+  
+      .teams{
+          flex-direction: column;
+      }
+      .teams-fetures{
+          padding-left: 100px;
+          padding-right: 30px;
+      }
+     
+  }
+  footer{
+    width: 1440px;
+    height: 100px;
+    /* border: 2px solid red; */
+    background-color: rgb(244, 246, 243);
+    margin-top: 60px;
+  }
+  footer p{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 40px;
+    border-radius: 8px;
+  }
